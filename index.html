@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Color Recognition App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+    <span> <img src="Logo.png" alt="logo" class="logo"><h1 class="heading">Color <span class="recog">Recognition</span> App</h1></span>
+      
+
+      <br><br>
+
+      <p style="font-size: 22px;" class="Colours">Model is trained to identify different <span class="color">colours</span> like: </p>
+      <div class="name_of_objects">
+        <ul type="square">
+       <li> <span class="Blue">Blue</span> </li>
+        <br>
+        <br>
+      <li><span class="Green">Green</span></li>
+        <br>
+        <br>
+       <li><span class="Yellow">Yellow</span></li>
+        <br>
+        <br>
+       <li><span class="Red">Red</span></li>
+        <br>
+        <br>
+    </ul>
+      </div>
+
+      <label>Webcam View - </label>
+      <div id="camera"></div>
+
+      <br><br>
+      <div id="result"></div>
+
+      <br><br>
+      <button onclick="take_snapshot()" class="btn btn-info">Capture Image</button>
+
+      <br><br>
+      <button onclick="check()" class="btn btn-success">Identify Image</button>
+
+      <br><br>
+      <ul>
+<div  class="lower_part">
+     <li> <p style="font-size: 22px;">Colour : <span id="result_color_name"></span> </p></li>
+     <li> <p style="font-size: 22px;"> <span class="font"> Accuracy : </span> <span id="result_color_accuracy"></span> </p></li>
+    </div>
+    </center>
+
+  </div>
+</ul>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

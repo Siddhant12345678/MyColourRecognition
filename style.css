@@ -1,0 +1,53 @@
+body {
+text-align: center;
+font-family: 'Mont-Heavy';
+background-image: url(backround.png);
+background-position: center;
+background-size: cover;
+}
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url(Mont-HeavyDEMO.otf);
+}
+.lower_part{
+    padding-right: 900px;
+    color:aqua;
+}
+.heading{
+    font-size: 30;
+    color: aliceblue;
+}
+.Colours{
+    color: orangered
+}
+.name_of_objects{
+    color: yellow;
+}
+label{
+    color: white;
+}
+.logo{
+    width: 60;
+    height: 60;
+}
+.recog{
+    color: greenyellow;
+}
+.font{
+    color: blue;
+}
+.color{
+    color:whitesmoke;
+}
+.Blue{
+    color: blue;
+}
+.Green{
+    color: green;
+}
+.Red{
+    color: red;
+}
+.Purple{
+    color: purple;
+}
